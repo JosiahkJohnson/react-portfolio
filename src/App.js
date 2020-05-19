@@ -5,14 +5,16 @@ import './App.css';
 import Header from "./componenets/header";
 import Project from "./componenets/project";
 import Footer from "./componenets/Footer";
-import Navbar from "./componenets/Navigation";
+import Navbar from "./componenets/Navbar";
+import Navigation from "./componenets/Navigation"
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Navbar />
-      <Project />
+      <Header>
+        <Navbar />
+      </Header>
+      <Navigation />
       <Footer />
     </div>
   );

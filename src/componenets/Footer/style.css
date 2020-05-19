@@ -1,0 +1,13 @@
+.name {
+    font-weight: bold;
+}
+
+.repo {
+    align-items: left;
+    color: blue;
+}
+
+.linkedin {
+    text-align: right;
+    color: blue;
+}
