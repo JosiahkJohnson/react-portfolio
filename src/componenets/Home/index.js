@@ -18,6 +18,7 @@ function Home() {
             </p>
             <br/>
             <p className="email">Contact me at josiahkj123@gmail.com</p>
+            <p className="phone">Phone #: 214-499-8252</p>
         </div>
     );
 };

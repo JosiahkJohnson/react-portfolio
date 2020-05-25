@@ -1,5 +1,6 @@
 //This file will be used to display different projects to our profile page
 import React from "react";
+import "./style.css";
 
 function Project({
     image,
@@ -10,15 +11,15 @@ function Project({
     deployed
 }){
     return(
-        <div>
+        <div className = "border">
             <h2>{title}</h2>
             <br/>
-            <img src={image} alt={alt}/>
+            <img className= "images" src={image} alt={alt}/>
             <br/>
             <p>{description}</p>
             <br/>
-            <a href={githubRepo}>Repository</a>
-            <a href={deployed}>Link to demo</a>
+            <a className = "links" href={githubRepo} >Repository</a>
+            <a className = "links" href={deployed} >Link to demo</a>
         </div>
     );
 }

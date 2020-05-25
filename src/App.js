@@ -11,11 +11,13 @@ import Navigation from "./componenets/Navigation"
 function App() {
   return (
     <div className="App">
-      <Header>
-        <Navbar />
-      </Header>
-      <Navigation />
-      <Footer />
+      <div className="wrapper">
+        <Header>
+          <Navbar />
+        </Header>
+        <Navigation />
+        <Footer />
+      </div>
     </div>
   );
 }
