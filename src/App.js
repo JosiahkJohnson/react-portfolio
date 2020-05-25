@@ -3,10 +3,10 @@ import './App.css';
 
 //component imports
 import Header from "./componenets/header";
-import Project from "./componenets/project";
 import Footer from "./componenets/Footer";
 import Navbar from "./componenets/Navbar";
 import Navigation from "./componenets/Navigation"
+
 
 function App() {
   return (
