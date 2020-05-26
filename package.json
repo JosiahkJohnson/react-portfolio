@@ -10,12 +10,13 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
+    "if-env": "1.0.4",
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "heroku-postbuild": "npm run build",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:dev": "concurrently \"react-scripts start\" \"node src/server.js\"",
+    "start:dev": "react-scripts start",
     "start:prod": "node src/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
