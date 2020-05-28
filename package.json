@@ -14,10 +14,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "heroku-postbuild": "npm run build",
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-    "start:dev": "react-scripts start",
-    "start:prod": "node src/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
